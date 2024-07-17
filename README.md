@@ -19,7 +19,7 @@
 <p>Invoke the Lightning Component specified in the Script.</p>
 </div>
 <h1>My External Page</h1>
-<script src="https://haporg--devmerge.sandbox.my.site.com/scheduleappointment/lightning/lightning.out.js"></script>
+<script src="https://apd.myportal.hap.org/scheduleappointment/lightning/lightning.out.js"></script>
 <h1>My External Page</h1>
 <script>
     $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
@@ -29,10 +29,10 @@
                 { },    // attributes to set on the component when created
                 "lexcontainer",    // the DOM location to insert the component
                 function(component) {            // API name of the Flow
-                    component.startFlow("Salesforce_Scheduler_Unauthenticated");
+                    component.startFlow("Inbound_New_Guest_Appointment_Custom");
                 }
             );
-        },    'https://haporg--devmerge.sandbox.my.site.com/'  // Site endpoint
+        },    'https://apd.myportal.hap.org/'  // Site endpoint
     );
 </script>
 
