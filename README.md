@@ -1,35 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./custom.css">
-</head>
-<body>
-<main>
-<div id='lexcontainer'>
-<p>flow here</p>
-</div>
-        <h1> Test text </h1>
-<script type='text/javascript' src="
-https://haporg--apmdev.sandbox.lightning.force.com/lightning/lightning.out.js"></script>
-<script>
-        
-        $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
-            function() {                  // Callback once framework and app load
-                $Lightning.createComponent(
-                    "lightning:flow",    // top-level component of your app
-                    { },    // attributes to set on the component when created
-                    "lexcontainer",    // the DOM location to insert the component
-                    function(component) {            // API name of the Flow
-                        component.startFlow("Inbound_New_Guest_Appointment_Custom");
-                    }
-                );
-            },
-'https://haporg--apmdev.sandbox.lightning.force.com/'
-  // Site endpoint
-        );
-</script>
-</main>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <h1>My External Page</h1>
+        <div id="lightning-out"></div>
+        <script src="https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
+        <script>
+            $Lightning.use(
+                'c:MyLightningOutApp', // name of the Lightning Out app
+                function () { // callback after the framework and app load
+                    $Lightning.createComponent(
+                        'c:MyCustomComponent', // top-level component of the Lightning Out app
+                        {}, // attributes to set on the component
+                        'lightning-out', // DOM element ID where the component is inserted
+                        function (cmp) { // callback after the component loads
+                            console.log('The component was created.');
+                        }
+                    );
+                },
+                'https://apd.myportal.hap.org' // Experience Cloud site endpoint
+            );
+        </script>
+    </body>
 </html>
