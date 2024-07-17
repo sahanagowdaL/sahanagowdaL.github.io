@@ -7,11 +7,11 @@
 </head>
 <body>
 <main>
-<div id='lexcontainer'>
+<div id=''>
 <p>flow here</p>
 </div>
 <script type='text/javascript' src="
-https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
+https://haporg--apmdev.sandbox.lightning.force.com/lightning/lightning.out.js"></script>
 <script>
         $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
             function() {                  // Callback once framework and app load
@@ -24,7 +24,7 @@ https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
                     }
                 );
             },
-'https://apd.myportal.hap.org/'
+'https://haporg--apmdev.sandbox.lightning.force.com/'
   // Site endpoint
         );
 </script>
