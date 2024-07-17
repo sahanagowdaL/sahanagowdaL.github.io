@@ -10,10 +10,11 @@
 <div id='lexcontainer'>
 <p>flow here</p>
 </div>
+        <h1> Test text </h1>
 <script type='text/javascript' src="
 https://haporg--apmdev.sandbox.lightning.force.com/lightning/lightning.out.js"></script>
 <script>
-        <h1> Test text </h1>
+        
         $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
             function() {                  // Callback once framework and app load
                 $Lightning.createComponent(
