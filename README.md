@@ -6,7 +6,7 @@
     <body>
         <h1>My External Page</h1>
         <div id="lightning-out"></div>
-        <script src="https://haporg--devmerge.sandbox.my.site.com/scheduleappointment/lightning/lightning.out.js"></script>
+        <script src="https://sahanagowdal.github.io//scheduleappointment/lightning/lightning.out.js"></script>
         <script>
             $Lightning.use(
                 'c:MyLightningOutApp', // name of the Lightning Out app
