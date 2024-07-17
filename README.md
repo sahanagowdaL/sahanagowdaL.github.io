@@ -1,3 +1,4 @@
+Working 1 :
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -19,7 +20,7 @@
 <p>Invoke the Lightning Component specified in the Script.</p>
 </div>
 <h1>My External Page</h1>
-
+<script src="https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
 <script>
 $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
     function() {                  // Callback once framework and app load
