@@ -21,7 +21,6 @@
 <h1>My External Page</h1>
 //<script src="https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
 <script>
-    <h1>Inside Script Tag</h1>
 $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
     function() {                  // Callback once framework and app load
         $Lightning.createComponent(
