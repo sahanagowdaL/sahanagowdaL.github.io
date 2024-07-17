@@ -19,7 +19,7 @@
 <p>Invoke the Lightning Component specified in the Script.</p>
 </div>
 <h1>My External Page</h1>
-<script src="https://apd.myportal.hap.org/scheduleappointment/lightning/lightning.out.js"></script>
+<script src="https://apd.myportal.hap.org/lightning/lightning.out.js"></script>
 <h1>My External Page</h1>
 <script>
     $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
