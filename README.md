@@ -18,7 +18,7 @@
 <div id="lexcontainer">
 <p>Invoke the Lightning Component specified in the Script.</p>
 </div>
-<script src="https://haporg--apmdev.sandbox.my.site.com/s/lightning/lightning.out.js"></script>
+<script src="https://haporg--apmdev.sandbox.my.site.com/lightning/lightning.out.js"></script>
 <script>
 $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
 function() {                  // Callback once framework and app load
@@ -30,7 +30,7 @@ function() {                  // Callback once framework and app load
             component.startFlow("Inbound_New_Guest_Appointment_Custom");
         }
     );
-},    'https://haporg--apmdev.sandbox.my.site.com/s/'  // Site endpoint
+},    'https://haporg--apmdev.sandbox.my.site.com/'  // Site endpoint
 );
 </script>
 </body>
