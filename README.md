@@ -46,7 +46,7 @@
 			'https://haporg--devmerge.sandbox.my.salesforce.com',
 			'https://haporg--devmerge.sandbox.my.site.com/producers',
 			gslbBaseURL,
-			'00D6u000000Gyun',
+			'00D590000008i3G',
 			'Live_Chat',
 			{
 				baseLiveAgentContentURL: 'https://c.la4-c1cs-ia4.salesforceliveagent.com/content',
