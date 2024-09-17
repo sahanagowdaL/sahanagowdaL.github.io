@@ -43,10 +43,10 @@
                                                         {"label":"Email", "transcriptFields": ["Email__c"]},
                                                         {"label":"Phone", "transcriptFields": ["Phone__c"]}];
 		embedded_svc.init(
-			'https://haporg--devmerge.sandbox.my.salesforce.com',
-			'https://haporg--devmerge.sandbox.my.site.com/producers',
+			'https://haporg--apmdev.sandbox.my.salesforce.com',
+			'https://haporg--apmdev.sandbox.my.site.com/producers',
 			gslbBaseURL,
-			'00D590000008i3G',
+			'00D6u000000Gyun',
 			'Live_Chat',
 			{
 				baseLiveAgentContentURL: 'https://c.la4-c1cs-ia4.salesforceliveagent.com/content',
@@ -61,7 +61,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://haporg--devmerge.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://haporg--apmdev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
