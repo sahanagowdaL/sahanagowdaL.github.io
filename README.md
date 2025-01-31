@@ -1,5 +1,5 @@
 <style type='text/css'>
-	embeddedmessaging-chat-header:containerArea {
+	.containerArea {
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
