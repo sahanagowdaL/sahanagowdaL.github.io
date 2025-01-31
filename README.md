@@ -3,7 +3,7 @@
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
 
