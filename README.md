@@ -1,5 +1,5 @@
 <style type='text/css'>
-	.embeddedServiceHelpButton .helpButton .uiButton {
+	.header .chatHeader {
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
