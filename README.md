@@ -6,6 +6,10 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+	.lwc-c5th8h1hm8-host {
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
 
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
