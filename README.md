@@ -66,7 +66,6 @@
        	}
 </style>
 <script type='text/javascript'>
-	<p>TEST</p>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
