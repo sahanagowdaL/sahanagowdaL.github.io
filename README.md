@@ -69,7 +69,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
+			<p>TEST</p>
 			embeddedservice_bootstrap.init(
 				'00Ddl000001XOKj',
 				'Live_Chat_Embedded_Deployment',
