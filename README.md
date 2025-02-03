@@ -7,6 +7,17 @@
 		outline: 1px solid #0081A1;
 	}
 
+	.chatHeader[lwc-c5th8h1hm8]{
+		background-color: #0081A1;
+		color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+	.chatHeader{
+		background-color: #0081A1;
+		color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+
 	.embeddedmessaging-chat-header, 
 	.embeddedmessaging-chat-header.containerArea, 
 	.lwc-c5th8h1hm8-host {
