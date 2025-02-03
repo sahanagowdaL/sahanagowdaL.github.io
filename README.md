@@ -8,6 +8,7 @@
 	}
 	.embeddedmessaging-chat-header{
 		background-color: #0081A1;
+		background-color: #0081A1 !important;
 		color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
