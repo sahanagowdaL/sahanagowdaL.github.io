@@ -9,10 +9,14 @@
 	.embeddedmessaging-chat-header .containerArea{
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
+		headerColor:#0081A1;
+		--headerColor:#0081A1;
 	}
 	.containerArea{
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
+		headerColor:#0081A1;
+		--headerColor:#0081A1;
 	}
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
