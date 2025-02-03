@@ -11,6 +11,11 @@
 		color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
+	.containerArea{
+		background-color: #0081A1;
+		color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
 	.header.chatHeader{
 		background-color: #0081A1;
 		Background : #0081A1;
