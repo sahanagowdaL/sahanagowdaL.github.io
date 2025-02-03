@@ -12,6 +12,7 @@
 	}
 	.header.chatHeader{
 		background-color: #0081A1;
+		Background : #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
 	.lwc-c5th8h1hm8-host {
