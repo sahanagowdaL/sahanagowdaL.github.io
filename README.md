@@ -6,6 +6,14 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+
+	.embeddedmessaging-chat-header, 
+	.embeddedmessaging-chat-header.containerArea, 
+	.lwc-c5th8h1hm8-host {
+		background-color: #0081A1 !important;
+		color: #FFFFFF !important;
+	}
+
 	.embeddedmessaging-chat-header{
 		background-color: #0081A1;
 		background-color: #0081A1 !important;
