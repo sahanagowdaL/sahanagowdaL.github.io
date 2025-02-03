@@ -11,35 +11,30 @@
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 		headerColor:#0081A1;
-		--headerColor:#0081A1;
 	}
 	[lwc-c5th8h1hm8-host]{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 		headerColor:#0081A1;
-		--headerColor:#0081A1;
 	}
 	.chatHeader[lwc-c5th8h1hm8]{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 		headerColor:#0081A1;
-		--headerColor:#0081A1;
 	}
 	.embeddedmessaging-chat-header .containerArea{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 		headerColor:#0081A1;
-		--headerColor:#0081A1;
 	}
 	.containerArea{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 		headerColor:#0081A1;
-		--headerColor:#0081A1;
 	}
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
