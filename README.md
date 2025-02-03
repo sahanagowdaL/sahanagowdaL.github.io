@@ -6,6 +6,11 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+	.embeddedmessaging-chat-header{
+		background-color: #0081A1;
+		color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
 	.embeddedmessaging-chat-header.containerArea{
 		background-color: #0081A1;
 		color: #0081A1;
