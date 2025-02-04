@@ -6,7 +6,7 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-	.minimizedButton-20.slds-button.minimizedButton{
+	.minimizedButtonWrapper.minimizedButton-20.slds-button.minimizedButton{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1))
 		background-color: #0081A1;
 	}
