@@ -6,7 +6,7 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-	.embeddedMessagingFrame.embeddedMessagingFrame.eswIsDesktop.isMaximized{
+	.embedded-messaging .embeddedMessagingFrame .embeddedMessagingFrame .eswIsDesktop .isMaximized{
 		background-color: #0081A1 !important;
 		--headerColor: #0081A1 !important;
 	}
