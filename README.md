@@ -6,8 +6,7 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-
-	.embeddedmessaging-chat-header.containerArea{
+	.chatHeader[lwc-c5th8h1hm8], .headerAnnouncement[lwc-c5th8h1hm8]{
 		background-color: #0081A1;
 	}
 	
@@ -49,5 +48,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Testing</h1>
+	<h1>Test</h1>
 </div>
