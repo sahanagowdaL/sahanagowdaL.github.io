@@ -58,6 +58,12 @@
     	 .slds-form-element__label{
         	font-size:1.5ch;
        	}
+	.custom-header {
+		color: white;
+		font-size: 2em;
+		text-align: center;
+		margin: 20px 0;
+	}
 </style>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
