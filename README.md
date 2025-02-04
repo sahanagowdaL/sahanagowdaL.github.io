@@ -13,6 +13,10 @@
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
 	}
+	.minimizedButtonWrapper .minimizedButton .minimizedButton-20{
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
 	.minimizedButtonWrapper .slds-button minimizedButton{
 		background-color: #0081A1;
 		font-family: "Chivo", sans-serif;
@@ -101,5 +105,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Testin</h1>
+	<h1>Testing</h1>
 </div>
