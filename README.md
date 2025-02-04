@@ -6,6 +6,18 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+	.embeddedmessaging-container.embeddedmessaging-chat-header.containerArea{
+		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+		headerColor:#0081A1;
+	}
+	.container-2ccc.containerArea{
+		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+		headerColor:#0081A1;
+	}
 	.header.chatHeader{
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1));
 		background-color: #0081A1;
