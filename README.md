@@ -10,6 +10,12 @@
 	embeddedmessaging-chat-header.containerArea{
 		background-color: #0081A1;
 	}
+	.minimizedButtonWrapper .slds-button minimizedButton {
+		background-color: #0081A1;
+	}
+	.minimizedButtonWrapper .slds-button minimizedButton:focus {
+		outline: 1px solid #0081A1;
+	}
 	
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
@@ -49,5 +55,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Testing</h1>
+	<h1>Test</h1>
 </div>
