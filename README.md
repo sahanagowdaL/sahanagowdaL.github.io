@@ -10,11 +10,11 @@
 	.embeddedmessaging-chat-header .header .chatHeader{
 		background-color: #0081A1 !important;
 	}
-	embeddedmessaging-container[data-component-id="container-2cc"] embeddedmessaging-chat-header {
+	.embeddedmessaging-container[data-component-id="container-2cc"] embeddedmessaging-chat-header {
 		background-color: #0081A1 !important;
 	}
 
-	embeddedmessaging-container embeddedmessaging-chat-header.containerArea {
+	.embeddedmessaging-container embeddedmessaging-chat-header.containerArea {
 		background-color: #0081A1 !important;
 	}
         .slds-icon-utility-minimize-window{
@@ -56,5 +56,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing</h1>
+	<h1>testing test</h1>
 </div>
