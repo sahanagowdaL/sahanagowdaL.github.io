@@ -6,6 +6,10 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+	.minimizedButton-20.slds-button.minimizedButton{
+		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1))
+		background-color: #0081A1;
+	}
 	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf] {
 		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1))
 		background-color: #0081A1;
@@ -106,5 +110,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Test</h1>
+	<h1>Testing</h1>
 </div>
