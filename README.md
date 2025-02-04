@@ -6,6 +6,12 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
+	
+	embeddedmessaging-chat-header .chatHeader {
+		background-color: #0081A1 !important;
+		width: 100% !important;
+	}
+
 
 	embeddedmessaging-chat-header.containerArea{
 		background-color: #0081A1 !important;
@@ -51,9 +57,21 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
+
+	(function () {
+    const style = document.createElement('style');
+    style.innerHTML = `
+        embeddedmessaging-chat-header .chatHeader {
+            background-color: #0081A1 !important;
+            width: 100% !important;
+        }
+    `;
+    document.head.appendChild(style);
+	})();
+
 </script>
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Testing</h1>
+	<h1>Test test</h1>
 </div>
