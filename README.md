@@ -7,6 +7,7 @@
 		outline: 1px solid #0081A1;
 	}
 	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf] {
+		background-color: var(--headerColor, var(--lwc-brandContrast, #0081A1))
 		background-color: #0081A1;
 	}
 	.minimizedButtonWrapper .minimizedButton-20{
