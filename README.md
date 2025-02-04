@@ -12,6 +12,21 @@
 		font-family: "Chivo", sans-serif;
 	}
 	
+
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton div[class="embeddedMessagingIconContainer"] > svg.embeddedMessagingIconMinimize:focus{
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton .embeddedMessagingIconContainer .embeddedMessagingIconMinimize{
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton .embeddedMessagingIconContainer .embeddedMessagingIconMinimize:focus{
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+	
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
 	 }       
