@@ -7,24 +7,12 @@
 		outline: 1px solid #0081A1;
 	}
 
-	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton div[class="embeddedMessagingIconContainer"] > svg.embeddedMessagingIconMinimize{
+	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf] {
 		background-color: #0081A1;
-		font-family: "Chivo", sans-serif;
-	}
-	
-
-	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton div[class="embeddedMessagingIconContainer"] > svg.embeddedMessagingIconMinimize:focus{
-		background-color: #0081A1;
-		font-family: "Chivo", sans-serif;
 	}
 
-	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton .embeddedMessagingIconContainer .embeddedMessagingIconMinimize{
-		background-color: #0081A1;
-		font-family: "Chivo", sans-serif;
-	}
-	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton .embeddedMessagingIconContainer .embeddedMessagingIconMinimize:focus{
-		background-color: #0081A1;
-		font-family: "Chivo", sans-serif;
+	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf]:focus {
+		outline: 1px solid #0081A1;
 	}
 	
         .slds-icon-utility-minimize-window{
@@ -65,5 +53,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>Testing</h1>
+	<h1>Test</h1>
 </div>
