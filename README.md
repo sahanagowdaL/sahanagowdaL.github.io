@@ -6,9 +6,8 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf]{
+	.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf] {
 		background-color: #0081A1;
-		font-family: "Chivo", sans-serif;
 	}
 	.minimizedButtonWrapper .minimizedButton-20{
 		background-color: #0081A1;
