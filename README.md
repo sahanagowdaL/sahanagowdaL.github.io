@@ -8,8 +8,8 @@
 	}
 	.embeddedMessagingModalOverlay .embeddedMessagingFrame{
 		element.style {
-			primaryColor: #0081A1;
-			headerColor: #0081A1;
+			--primaryColor: #0081A1;
+			--headerColor: #0081A1;
 		}
 	}
 	
