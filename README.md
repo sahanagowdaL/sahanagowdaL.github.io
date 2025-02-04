@@ -8,6 +8,7 @@
 	}
 	.embeddedMessagingFrame.embeddedMessagingFrame.eswIsDesktop.isMaximized{
 		background-color: #0081A1 !important;
+		headerColor: #0081A1 !important;
 	}
 
         .slds-icon-utility-minimize-window{
@@ -49,5 +50,5 @@
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>tes</h1>
+	<h1>test</h1>
 </div>
