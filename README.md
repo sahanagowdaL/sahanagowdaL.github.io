@@ -8,7 +8,7 @@
 	}
 	.embeddedMessagingFrame.embeddedMessagingFrame.eswIsDesktop.isMaximized{
 		background-color: #0081A1 !important;
-		headerColor: #0081A1 !important;
+		--headerColor: #0081A1 !important;
 	}
 
         .slds-icon-utility-minimize-window{
