@@ -36,11 +36,11 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00Ddl000001XOKj',
+				'00Ddp000000semr',
 				'Live_Chat_Embedded_Deployment',
-				'https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973',
+				'https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382',
 				{
-					scrt2URL: 'https://haporg--devmerge.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://haporg--apmdev.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -48,7 +48,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
 	<h1>Testing</h1>
