@@ -49,10 +49,10 @@
 		headerColor:#0081A1;
 	}
         .slds-icon-utility-minimize-window{
-    		zoom: 120%;
+    		zoom: 100%;
 	 }       
     	 .slds-icon-utility-close{
-          	zoom: 120%;
+          	zoom: 100%;
      	  }
     
     	 .slds-form-element__label{
