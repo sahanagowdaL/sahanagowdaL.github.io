@@ -6,21 +6,12 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-	
-	.embeddedmessaging-chat-header .chatHeader {
-		background-color: #0081A1 !important;
-		width: 100% !important;
-	}
-
-
-	embeddedmessaging-chat-header.containerArea{
+	.embeddedmessaging-chat-header header.chatHeader{
 		background-color: #0081A1 !important;
 	}
-	.minimizedButtonWrapper .slds-button minimizedButton {
-		background-color: #0081A1;
-	}
-	.minimizedButtonWrapper .slds-button minimizedButton:focus {
-		outline: 1px solid #0081A1;
+
+	.embeddedmessaging-chat-header.header.chatHeader{
+		background-color: #0081A1 !important;
 	}
 	
         .slds-icon-utility-minimize-window{
@@ -57,17 +48,6 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
-
-	(function () {
-    const style = document.createElement('style');
-    style.innerHTML = `
-        embeddedmessaging-chat-header .chatHeader {
-            background-color: #0081A1 !important;
-            width: 100% !important;
-        }
-    `;
-    document.head.appendChild(style);
-	})();
 
 </script>
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
