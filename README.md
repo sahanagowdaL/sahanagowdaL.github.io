@@ -7,7 +7,7 @@
 		outline: 1px solid #0081A1;
 	}
 	
-	embeddedmessaging-chat-header .chatHeader {
+	.embeddedmessaging-chat-header .chatHeader {
 		background-color: #0081A1 !important;
 		width: 100% !important;
 	}
