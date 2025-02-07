@@ -6,10 +6,6 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-	.embedded-messaging .embeddedMessagingFrame .embeddedMessagingFrame .eswIsDesktop .isMaximized{
-		background-color: #0081A1 !important;
-		headerColor: #0081A1 !important;
-	}
 
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
