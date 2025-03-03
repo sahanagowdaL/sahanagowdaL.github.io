@@ -23,10 +23,12 @@
 		text-align: center;
 		margin: 20px 0;
 	}
+	
 	iframe {
 		height: 550px !important;
-		width: 440px !important;
+		width: auto !important;
 	}
+
 
 </style>
 <script type='text/javascript'>
@@ -50,5 +52,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing Iframe</h1>
+	<h1>testing with new Iframe</h1>
 </div>
