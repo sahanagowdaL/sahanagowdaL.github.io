@@ -30,7 +30,7 @@
 	}
 	
 	iframe {
-		height: 700px !important;
+		height: 500px !important;
 		width: 320px !important;
 	}
 
