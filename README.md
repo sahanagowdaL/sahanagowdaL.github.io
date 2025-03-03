@@ -24,10 +24,13 @@
 		margin: 20px 0;
 	}
 	
-	iframe {
-		height: 550px !important;
-		width: 400 !important;
-	}
+	/* Override max-height to increase the height of the chat window */
+@media only screen and (min-width: 48em) {
+    .embedded-messaging > .embeddedMessagingFrame[class~="isMaximized"] {
+        max-height: 200vh !important; /* Increase the max-height */
+    }
+}
+
 
 
 </style>
@@ -52,5 +55,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing</h1>
+	<h1>testing again</h1>
 </div>
