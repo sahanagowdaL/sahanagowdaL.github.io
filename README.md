@@ -26,12 +26,12 @@
 	
 	.embeddedMessagingConversationWrapper {
 		height: 500px !important;
-		width: 320px !important;
+		width: 450px !important;
 	}
 	
 	iframe {
 		height: 500px !important;
-		width: 320px !important;
+		width: 450px !important;
 	}
 
 </style>
@@ -56,5 +56,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing again</h1>
+	<h1>testing</h1>
 </div>
