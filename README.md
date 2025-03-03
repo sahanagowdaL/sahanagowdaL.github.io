@@ -25,7 +25,7 @@
 	}
 	
 	iframe {
-		height: 550px !important;
+		height: 650px !important;
 		width: auto !important;
 	}
 
