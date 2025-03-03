@@ -34,9 +34,7 @@
 				'Live_Chat_Embedded_Deployment',
 				'https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973',
 				{
-					scrt2URL: 'https://haporg--devmerge.sandbox.my.salesforce-scrt.com',
-					windowHeight: '220px', // Adjust the height dynamically in JS (if supported)
-        				windowWidth: '220px'  // Adjust the width as well, if needed
+					scrt2URL: 'https://haporg--devmerge.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
