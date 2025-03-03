@@ -25,12 +25,12 @@
 	}
 	
 	.embeddedMessagingConversationWrapper {
-		height: 500px !important;
+		height: 550px !important;
 		width: 450px !important;
 	}
-	
+
 	iframe {
-		height: 500px !important;
+		height: 550px !important;
 		width: 450px !important;
 	}
 
