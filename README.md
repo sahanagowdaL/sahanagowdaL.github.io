@@ -29,11 +29,6 @@
 		width: 440px !important;
 	}
 
-	iframe {
-		height: 550px !important;
-		width: 440px !important;
-	}
-
 </style>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -56,5 +51,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing aa</h1>
+	<h1>testing </h1>
 </div>
