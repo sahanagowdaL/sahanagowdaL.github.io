@@ -35,8 +35,8 @@
 				'https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973',
 				{
 					scrt2URL: 'https://haporg--devmerge.sandbox.my.salesforce-scrt.com',
-					windowHeight: '400px', // Adjust the height dynamically in JS (if supported)
-        				windowWidth: '320px'  // Adjust the width as well, if needed
+					windowHeight: '220px', // Adjust the height dynamically in JS (if supported)
+        				windowWidth: '220px'  // Adjust the width as well, if needed
 				}
 			);
 		} catch (err) {
