@@ -35,8 +35,8 @@
 				'https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382',
 				{
 					scrt2URL: 'https://haporg--apmdev.sandbox.my.salesforce-scrt.com',
-					windowHeight: '700px', // Set the chat window height
-        				windowWidth: '320px'
+					windowHeight: "700px", // Set the chat window height
+        				windowWidth: "320px"
 				}
 			);
 		} catch (err) {
@@ -47,5 +47,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing again</h1>
+	<h1>testing</h1>
 </div>
