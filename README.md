@@ -25,7 +25,7 @@
 	}
 	
 	.embeddedMessagingConversationWrapper {
-		height: 550px !important;
+		height: 600px !important;
 		width: 440px !important;
 	}
 
@@ -51,5 +51,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing </h1>
+	<h1>testing without Inframe</h1>
 </div>
