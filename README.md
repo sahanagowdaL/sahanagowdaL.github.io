@@ -24,7 +24,7 @@
 		margin: 20px 0;
 	}
 	.embedded-messaging {
-		--eswHeight: 510px; /* Change height here */
+		--eswHeight: 500px; /* Change height here */
 	}
 	
 	/* Override max-height to increase the height of the chat window */
@@ -56,5 +56,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testingggg</h1>
+	<h1>testing again</h1>
 </div>
