@@ -28,6 +28,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			embedded_svc.settings.widgetHeight = "90%";
 
 			embeddedservice_bootstrap.init(
 				'00Ddl000001XOKj',
@@ -43,8 +44,6 @@
 	};
 </script>
 <script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
-
 <div class="custom-header">
-	<h1>testing again</h1>
+	<h1>testing</h1>
 </div>
