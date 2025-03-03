@@ -25,8 +25,8 @@
 	}
 	
 	iframe {
-		height: 900px !important;
-		width: auto !important;
+		height: 550px !important;
+		width: 400 !important;
 	}
 
 
@@ -52,5 +52,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing iop</h1>
+	<h1>testing</h1>
 </div>
