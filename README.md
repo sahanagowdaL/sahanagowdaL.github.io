@@ -28,10 +28,9 @@
 @media only screen and (min-width: 48em) {
     .embedded-messaging > .embeddedMessagingFrame[class~="isMaximized"] {
         max-height: 200vh !important; /* Increase the max-height */
+	    height: var(--eswHeight, 500px);
     }
 }
-
-
 
 </style>
 <script type='text/javascript'>
@@ -55,5 +54,5 @@
 <script type='text/javascript' src='https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <div class="custom-header">
-	<h1>testing again</h1>
+	<h1>testing height</h1>
 </div>
