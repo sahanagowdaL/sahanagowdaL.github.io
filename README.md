@@ -23,6 +23,17 @@
 		text-align: center;
 		margin: 20px 0;
 	}
+	
+	.embeddedMessagingConversationWrapper {
+		height: 700px !important;
+		width: 320px !important;
+	}
+	
+	iframe {
+		height: 700px !important;
+		width: 320px !important;
+	}
+
 </style>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -34,9 +45,7 @@
 				'Live_Chat_Embedded_Deployment',
 				'https://haporg--apmdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1736431165382',
 				{
-					scrt2URL: 'https://haporg--apmdev.sandbox.my.salesforce-scrt.com',
-					windowHeight: "700px", // Set the chat window height
-        				windowWidth: "320px"
+					scrt2URL: 'https://haporg--apmdev.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
