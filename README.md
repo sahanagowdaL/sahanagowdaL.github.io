@@ -6,7 +6,7 @@
 	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
 		outline: 1px solid #0081A1;
 	}
-
+	
         .slds-icon-utility-minimize-window{
     		zoom: 120%;
 	 }       
