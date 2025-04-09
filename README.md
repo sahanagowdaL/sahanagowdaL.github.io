@@ -33,19 +33,19 @@
         max-height: 200vh !important; /* Increase the max-height */
     }
 }
-
 </style>
+
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00Ddl000001XOKj',
+				'00DcT000000kKdF',
 				'Live_Chat_Embedded_Deployment',
-				'https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973',
+				'https://haporg--qa.sandbox.my.site.com/ESWLiveChatEmbeddedDep1744135393640',
 				{
-					scrt2URL: 'https://haporg--devmerge.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://haporg--qa.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -53,4 +53,4 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://haporg--devmerge.sandbox.my.site.com/ESWLiveChatEmbeddedDep1738126593973/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://haporg--qa.sandbox.my.site.com/ESWLiveChatEmbeddedDep1744135393640/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
